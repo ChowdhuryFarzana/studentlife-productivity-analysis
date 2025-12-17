@@ -22,7 +22,11 @@ This project examines whether smartphone behaviors (unlock patterns, screen time
 - Publicly available, anonymized dataset
 
 **Dataset Access:** [StudentLife Dataset](https://studentlife.cs.dartmouth.edu/)
-
+## file structure
+we have two notebooks uploaded:
+1. Data analysis and AR, VAR model
+2. Data analysis and ARIMA, SARIMA model
+   
 ## Methods
 
 ### Statistical Approaches
