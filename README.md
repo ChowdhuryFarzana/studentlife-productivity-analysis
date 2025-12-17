@@ -79,10 +79,6 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
 
 ### Required Packages
 ```
@@ -95,11 +91,6 @@ statsmodels>=0.13.0
 scikit-learn>=0.24.0
 jupyter>=1.0.0
 ```
-
-## Usage
-
-### 1. Data Preparation
-Download the StudentLife dataset from [here](https://studentlife.cs.dartmouth.edu/) and place in `data/raw/`.
 
 
 ## Main Findings
@@ -131,21 +122,6 @@ Download the StudentLife dataset from [here](https://studentlife.cs.dartmouth.ed
 - Use non-linear methods (random forests, neural networks)
 - Add subjective measures of digital well-being
 
-## Citation
-
-If you use this code or findings, please cite:
-
-```bibtex
-@misc{chowdhury2025studentlife,
-  author = {Chowdhury, Farzana},
-  title = {Understanding Attention in the Digital Age: A Time-Series Analysis of Smartphone Usage and Student Well-Being},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ChowdhuryFarzana/studentlife-productivity-analysis}}
-}
-```
-
 ## Related Publications
 
 **Original StudentLife Dataset:**
@@ -155,19 +131,9 @@ If you use this code or findings, please cite:
 - Wang, R., et al. (2015). "SmartGPA: How smartphones can assess and predict academic performance of college students." *UbiComp 2015*.
 - Huckins, J. F., et al. (2020). "Mental health and behavior of college students during the early phases of the COVID-19 pandemic." *JMIR*.
 
-## Contact
-
-**Farzana Chowdhury**  
-Mount Holyoke College  
-Email: [chowd23f@mtholyoke.edu]  
-GitHub: [@ChowdhuryFarzana](https://github.com/ChowdhuryFarzana)
 
 ## Acknowledgments
 
-- StudentLife dataset provided by Dartmouth College
-- Mount Holyoke College Research & Topics in Data Science class
+- StudentLife dataset provided by Dartmouth College, and kaggle community
+- Mount Holyoke College for Data Science class 
 - Project Advisor Arie Shaus for mentorship
-
----
-
-**Last Updated:** December 2025
