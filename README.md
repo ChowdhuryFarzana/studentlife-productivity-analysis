@@ -92,19 +92,6 @@ scikit-learn>=0.24.0
 jupyter>=1.0.0
 ```
 
-
-## Main Findings
-
-1. **No Predictive Power:** Phone usage metrics fail to predict future productivity (40-50% forecast errors)
-
-2. **Reverse Causality:** The positive relationship between checking frequency and productivity likely reflects that productive students feel comfortable taking breaks
-
-3. **Mood Drives Behavior:** Students in better moods check phones more frequently the next day, not vice versa
-
-4. **Context Matters:** Productivity depends on unmeasured factors (deadlines, sleep, social events) that passive sensing cannot capture
-
-5. **Content Over Quantity:** What students do on phones likely matters more than frequency or duration
-
 ## Limitations
 
 - High missingness in productivity (90.6%) and stress (57.5%) variables
